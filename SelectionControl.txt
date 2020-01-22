@@ -1,0 +1,48 @@
+Q#1 
+input ...customer name, purchase amount and tax code 
+
+Prosessing ...read cusomer details,calculate sales tax,calculate ,calculate total amount
+           ...print customer details
+
+Output....cust Name,purchase amount,sales tax and total amunt
+
+Algorithm
+
+1.read customer name,purchase amt and tax code
+
+2.CASE of tac code 
+   0: sales tax = 0
+   1:sales tax = purchase amt*0.03
+   2:sales tax = purchase amt*0.05
+   3:sales tax = purchase amt*0.07
+ END CASE
+
+3.total amt = Purchase amt + sales tax
+
+4.print cust name,purchse amt,sales tax,total amt
+
+ END
+
+Q#2
+
+Input.....employee's number,hourly pay rate,number of hors worked 
+
+Processing.....read employee's number,calculate pay rate, calculate number of hours worked in a week 
+
+Output.....weekly pay, overtime pay 
+
+
+
+1. Prompt user for hourly worker's pay rate.
+
+2. Prompt user for number of hours worked.
+
+3. If hours worked is greater than 35
+
+3.1 Calculate pay rate for first 35 hours, then calculate pay rate ("time-and-a-half") for hours worked over 35, and add these values together.
+4. Otherwise, calculate regular pay rate.
+5. Print the weekly pay for the employee.
+
+6. Update the running total.
+
+7. Return the running total to the calling function.
